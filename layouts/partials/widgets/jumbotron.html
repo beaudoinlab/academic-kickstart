@@ -1,0 +1,16 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<img draggable="false" src="/img/{{ $st.Params.image }}">
+
+
+<div class="row jumbo-row" >
+    <div class="col-lg-12">
+      {{ with $st.Params.subtitle }}<h3 style="color:black">{{ . | markdownify | emojify }}</h3>{{ end }}
+    </div>
+</div>
+
+<div class="row jumbo-row">
+  <div class="col">
+    <a type="button" class="btn btn-primary btn-join" href="#join-us">Join Us!</a>
+</div>

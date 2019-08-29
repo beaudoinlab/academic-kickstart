@@ -7,7 +7,8 @@ weight = 5  # Order that this section will appear.
 title = ""
 subtitle = "Unraveling the role of RNA structure in dynamic gene regulation."
 
-image = "hero.svg"
+#Image for the Hero in /static/img (this is automatically added)
+image = "rna-development.svg"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

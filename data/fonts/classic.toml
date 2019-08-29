@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Classic"
+
+# Optional Google font URL
+google_fonts = "Lato:400,700|Merriweather|Roboto+Mono"
+
+# Font families
+heading_font = "PT Serif"
+body_font = "PT Serif"
+nav_font = "PT Serif"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

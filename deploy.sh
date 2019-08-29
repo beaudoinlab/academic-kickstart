@@ -1,8 +1,18 @@
 #!/bin/bash
 
+set -e
+
+cd public
+git fetch
+git pull
+cd ..
+
+
 rm -rf public/*
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+
 
 # Build the project.
 hugo -t academic # if using a theme, replace with `hugo -t <YOURTHEME>`

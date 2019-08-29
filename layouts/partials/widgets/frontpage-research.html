@@ -1,0 +1,40 @@
+{{ $ := .root }}
+  {{ $page := .page }}
+
+
+
+
+<div class="row" style="">
+
+  <div class="col" >
+    {{ with $page.Params.title }}<h1 style="color:black">{{ . | markdownify | emojify }}</h1>{{ end }}
+
+    {{ $page.Content | markdownify | emojify }}
+    </div>
+</div>
+
+{{ if $page.Params.item }}
+
+<div class="row" style="padding-left:4rem; padding-right:4rem;">
+
+  {{ range $idx, $key := sort $page.Params.item ".date_start" "desc" }}
+  <div class="col frontpage-research" >
+
+    <a href="{{ .url }}" target="_blank" rel="noopener">
+
+    <div class="card ">
+      <img class="card-img-top " src="{{ .img }}">
+      <div class="card-body">
+        <h4>{{.title | markdownify | emojify}}</h4>
+        {{ with .description }}
+        <p>{{. | markdownify | emojify}}</p>
+        {{ end }}
+      </div>
+    </div>
+
+      </a>
+    </div>
+
+        {{end}}
+  </div>
+  {{end}}
