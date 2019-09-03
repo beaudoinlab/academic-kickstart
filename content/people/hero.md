@@ -1,13 +1,13 @@
 +++
-widget = "jumbotron"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 5  # Order that this section will appear.
 
-title = ""
+title = "Join our team!"
 subtitle = ""
 
-image = "hero.svg"
+#Image for the Hero in /static/img (this is automatically added)
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -25,11 +25,11 @@ image = "hero.svg"
 
 
   # Background image.
-  #image = "hero.jpg"  # Name of image in `static/img/`.
-  #image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "uconn_campus.jpg"  # Name of image in `static/img/`.
+  image_darken = 0.4  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
-  text_color_light = false
+  text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -40,16 +40,5 @@ image = "hero.svg"
  css_style = ""
 
  # CSS class.
- css_class = ""
+ css_class = "hero text-center"
 +++
-
-### Unraveling the role of RNA structure in dynamic gene regulation.
-
-<div class="row jumbo-row">
-  <div class="col">
-    <a href="/people">
-    <button type="button" class="btn btn-primary btn-join">
-      <h3>Join Us!</h3>
-      </button>
-    </a>
-</div>

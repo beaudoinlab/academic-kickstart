@@ -1,16 +1,16 @@
 @font-face {
-font-family: "meta";
-src: url("/fonts/meta.eot");
-src: url("/fonts/meta.woff") format("woff"),
-url("/fonts/meta.otf") format("opentype"),
-url("/fonts/meta.svg#filename") format("svg");
+  font-family: "meta";
+  src: url("/fonts/meta.eot");
+  src: url("/fonts/meta.woff") format("woff"),
+  url("/fonts/meta.otf") format("opentype"),
+  url("/fonts/meta.svg#filename") format("svg");
 }
 
 
 h1, h2, h3,h4,h5,h6 {
-font-family: 'meta', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
+  font-family: 'meta', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 
 .navbar-brand {
@@ -23,6 +23,69 @@ font-style:normal;
   text-align:center;
 }
 
+.jumbo-row {
+  color:black;
+}
+
+.jumbo-row h1{
+  font-size: 3.5rem;
+}
+
+.jumbo-row h3{
+  padding-bottom: 2rem;
+  margin-top: 0rem;
+}
+
+@media
+only screen and (min-width: 850px) {
+  .hero {
+    height: 400px;
+  }
+  .hero h1{
+    padding-top: 7rem;
+  }
+  .hero h1{
+    font-size: 5rem;
+  }
+  .hero h2{
+    font-size: 3rem;
+  }
+  .hero p{
+    font-size: 1.5rem;
+  }
+}
+
+@media
+only screen and (min-width: 420px) and (max-width: 849px) {
+  .hero {
+    height: 350px;
+  }
+
+  .hero h1 {
+    padding-top: 6rem;
+    font-size: 4rem;
+  }
+
+  .hero h2{
+    font-size: 1.75rem;
+  }
+
+  .hero p{
+    font-size: 1.25rem;
+  }
+}
+
+@media
+only screen and (max-width: 419px) {
+  .hero {
+    height: 300px;
+  }
+
+  .hero h1{
+    padding-top: 5rem;
+    font-size: 3rem;
+  }
+}
 
 .frontpage-research {
   text-align: center;
@@ -47,7 +110,37 @@ font-style:normal;
 }
 
 .btn-join:hover {
- background-color:#0082db !important;
- border-color: #0082db !important;
- text-decoration:none
+  background-color:#0082db !important;
+  border-color: #0082db !important;
+  text-decoration:none
+}
+
+.btn-join h3 {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration:none;
+  margin: 0rem;
+  padding-bottom: 0;
+}
+
+.research-video {
+  padding-top: 2rem;
+}
+
+.figure-center img{
+  display: block;
+  margin: auto;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+#floated{
+  float: right;
+  width: 400px;
+  padding-left: 2rem;
 }
