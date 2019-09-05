@@ -43,7 +43,7 @@ image = "hero.svg"
  css_class = ""
 +++
 
-### Unraveling the role of RNA structure in dynamic gene regulation.
+### Studying RNA structure and function in gene regulation during development
 
 <div class="row jumbo-row">
   <div class="col">

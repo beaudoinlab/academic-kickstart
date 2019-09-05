@@ -1,5 +1,5 @@
 ---
-title: "An example preprint / working paper v2"
+title: "An example preprint / working paper"
 authors:
 - admin
 date: "2019-04-07T00:00:00Z"
@@ -30,9 +30,6 @@ featured: false
 links:
 - name: Custom Link
   url: http://example.org
-
-- name: Geo submission
-  url: http://example.org
 url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: '#'
 url_dataset: '#'
@@ -43,7 +40,7 @@ url_source: '#'
 url_video: '#'
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)'
   focal_point: ""

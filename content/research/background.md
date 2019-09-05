@@ -43,6 +43,8 @@ The genome provides a fundamental layer of information for cellular transitions 
 
 While the regulatory role of RNA structures in gene expression and cellular functions is unequivocal, many fundamental questions remain regarding the identification of regulatory RNA structural motifs, their molecular mechanisms and their biological outcomes, especially in vivo.
 
+
+<!--
 During Jean-Denis’ postdoctoral studies, he used molecular, cellular and RNA biology to study a fundamental process in all animals, the maternal-to-zygotic transition, where post-transcriptional regulation orchestrates a profound change in the embryonic transcriptional landscape (Fig MZT (see Figures folder)). Here, he asked two central questions: what are the RNA structures formed during early embryogenesis and how do they interact with cellular factors to control gene expression during development?
 
 To address these questions, he developed innovative genome-wide in vivo RNA probing techniques to gain structural information on the zebrafish transcriptome during embryogenesis. In addition, he performed high throughput approaches to measure mRNA abundance and translation genome-wide in vivo. By integrating this information, he generated a global interaction map between RNA structure, mRNA stability and translation during early embryogenesis (Beaudoin JD*, Novoa EM* et al. Nat. Struct. Mol. Biol. 2018).
@@ -50,3 +52,4 @@ To address these questions, he developed innovative genome-wide in vivo RNA prob
 These results provide three major insights. First, contrary to the current dogma, I found that untranslated mRNAs are more structured in vivo compared to in vitro. Second, globally, translation guides mRNA structures rather than structure guiding translation. Third, RNA structures remodeled in 3’-UTRs are enriched for regulatory activity during development.
 
 These findings have generated three main questions that will be the foundation of the research program in the Beaudoin lab: What are the cellular factors shaping RNA folding and activity in vivo (Area 1)? What are the cis-regulatory elements controlling translation during embryogenesis (Area 2)? What are the molecular mechanisms by which RNA helicases modify RNA structures to regulate gene expression during vertebrate development (Area 3)?
+-->
