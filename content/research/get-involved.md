@@ -1,10 +1,11 @@
 +++
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 20  # Order that this section will appear.
 
-title = "Join our team"
+title = "Want to get involved?"
+subtitle = ""
 
 
 [design]
@@ -39,4 +40,6 @@ title = "Join our team"
  css_class = ""
 +++
 
-The Beaudoin lab is currently building its team, and it is your chance to become an active and important member of this new exciting team! We aim to build a diverse and collaborative team where each individual brings something different and has room to grow scientifically and professionally. Jean-Denis strongly believes in the motto: “Work hard, play hard”. If this fit with what you are looking for and that you are interested to share your passion for science with Jean-Denis and the rest of the team, you are more than welcome to apply for a position in our group.
+The lab is actively recruits graduate students, postdocs, and a research technician as we join the Department of Genetics and Genome Sciences at UConn Health in January 2020. 
+
+[Check out our recruitment page](/people) to learn more!

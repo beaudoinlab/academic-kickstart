@@ -36,6 +36,13 @@ h1, h2, h3,h4,h5,h6 {
   margin-top: 0rem;
 }
 
+.hero {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 @media
 only screen and (min-width: 850px) {
   .hero {
@@ -125,6 +132,33 @@ only screen and (max-width: 419px) {
 
 .research-video {
   padding-top: 2rem;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.research-video {
+  padding-top: 2rem;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+@media
+only screen and (min-width: 420px) and (max-width: 849px) {
+  .research-video {
+    max-height: 350px;
+    padding-top: 0rem;
+  }
+}
+
+@media
+only screen and (max-width: 419px) {
+  .research-video {
+    max-height: 200px;
+    padding-top: 1rem;
+  }
 }
 
 .figure-center img{
@@ -132,15 +166,36 @@ only screen and (max-width: 419px) {
   margin: auto;
 }
 
-.hero {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: scroll;
-  background-size: cover;
+.figure-center figcaption{
+  padding-bottom: 1rem;
 }
+
+
 
 #floated{
   float: right;
   width: 400px;
   padding-left: 2rem;
+}
+
+.profile img{
+  border-radius: 5%;
+}
+
+.caption-copy {
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    left: 20px;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #fff;
+    text-align: left;
+    font-size: .5rem;
+}
+
+.caption-copy a{
+  color: white;
+  text-decoration: none;
 }

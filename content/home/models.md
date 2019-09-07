@@ -49,3 +49,5 @@ To characterize the regulatory role of RNA structures during vertebrate developm
 To complement the powerful zebrafish model, we will also leverage human stem cell lines to uncover and characterize conserved gene regulatory pathways important for human development and health. Here, our goal is to study the regulatory role of RNA structures in human embryonic stem cells and induced pluripotent stem cells during various differentiation pathways (e.g. neuronal differentiation). Much of this research will be facilitated by the genome editing and reprogramming resources at the [UConn Stem Cell Core Facility](https://health.uconn.edu/stem-cell-core/).
 
 {{< figure src="/img/nerual_differentiation.svg" width="70%vw" class="text-center figure-center" caption="The Beaudoin lab is interested in how RNA structure regulates neural differentiation.">}}
+
+If all this sounds exciting, [visit our research page](/research) to learn more about the projects ongoing in the lab.

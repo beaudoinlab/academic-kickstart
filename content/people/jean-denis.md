@@ -1,7 +1,7 @@
 +++
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 15 # Order that this section will appear.
 
 title = "About Jean-Denis"
@@ -45,7 +45,7 @@ subtitle = ""
 
 <div>
 <div id="floated">
-{{< figure src="/img/people/jean-denis.jpg" width="400px" >}}
+{{< figure src="/img/people/jean-denis.jpg" width="400px" class="profile">}}
 </div>
 
 Hi! I am Jean-Denis, a French Canadian who came to the US to complete his Post-doctoral studies at Yale University and who is now joining the UCONN Health team as an Assistant Professor! Here is a little bit about myself. Curiously, I fit most Canadian stereotypes out there. I don’t qualify winter in Connecticut as real winter. I need to play hockey to stay mentally sane. I provide maple syrup to people from the department in the Spring and I love lumberjacking with my grandfather in the Fall. You will see me wearing Montreal Canadiens gears on important game days, but I much prefer American football over Canadian football. When I am not in the lab, I enjoy passing quality time with my family. I have a young son and watching him grow is simply sublime. I am a big craft beer amateur and will venture to new breweries all over the northeast on weekends. I stay connected with the outdoors by hiking, skiing, ice skating, snowshoeing, rollerblading, fishing and more. In short, I practice a good balance between personal and professional life.

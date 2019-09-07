@@ -13,20 +13,32 @@
   url = "/research"
   weight = 20
 
-[[main]]
-  name = "Our Team"
-  url = "/people"
-  weight = 30
+
+
+#[[main]]
+#  name = "News"
+#  url = "#news"
+#  weight = 40
 
 [[main]]
-  name = "News"
-  url = "#news"
+  name = "Publications"
+  url = "/publications"
   weight = 40
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 90
+
+[[main]]
+  name = "About Jean-Denis"
+  url = "/authors/jean-denis/"
+  weight = 80
+
+[[main]]
+  name = "Join Us"
+  url = "/people"
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

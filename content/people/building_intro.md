@@ -1,11 +1,13 @@
 +++
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 15 # Order that this section will appear.
 
-title = "Join our team"
+title = "Check out our new digs!"
+subtitle = ""
 
+#Image for the Hero in /static/img (this is automatically added)
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -20,8 +22,10 @@ title = "Join our team"
   # Background color.
   # color = "navy"
 
+
+
   # Background image.
-  #image = "hero.jpg"  # Name of image in `static/img/`.
+  #image = "storrs_campus.jpg"  # Name of image in `static/img/`.
   #image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 
   # Text color (true=light or false=dark).
@@ -33,10 +37,10 @@ title = "Join our team"
 
 [advanced]
  # Custom CSS.
- css_style = ""
+ css_style = "padding-bottom:0px;"
 
  # CSS class.
  css_class = ""
 +++
 
-The Beaudoin lab is currently building its team, and it is your chance to become an active and important member of this new exciting team! We aim to build a diverse and collaborative team where each individual brings something different and has room to grow scientifically and professionally. Jean-Denis strongly believes in the motto: “Work hard, play hard”. If this fit with what you are looking for and that you are interested to share your passion for science with Jean-Denis and the rest of the team, you are more than welcome to apply for a position in our group.
+In January 2020, the Beaudoin lab will move into the award winning, [newly renovated](https://www.goodyclancy.com/projects/cell-and-genome-sciences-building-renovation-addition-2/), and state-of-the-art Cell and Genome Sciences Building at UConn Health. Here, the lab will join the rest of the Department of [Genetics and Genome Sciences](https://health.uconn.edu/genetics/). We're excited to build the lab in this engaging and multi-disciplinary research home.

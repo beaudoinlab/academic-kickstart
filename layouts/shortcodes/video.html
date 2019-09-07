@@ -1,11 +1,11 @@
 {{ $src := (.Get "src") }}
 {{ $caption := (.Get "caption")}}
-
-<video class="research-video" controls autoplay loop>
+<div class="container">
+<video class="research-video" align="right" controls autoplay loop>
   <source src="/mov/{{ $src }}.webm" type="video/webm">
   <source src="/mov/{{ $src }}.mp4" type="video/mp4">
-
 </video>
 <figcaption class="text-center">
     <p>{{ $caption | markdownify | emojify }}</p>
 </figcaption>
+</div>
