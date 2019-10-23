@@ -1,0 +1,22 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row jumbo-row" >
+  <div class="col-lg-12 text-center">
+
+  {{ with $st.Params.title }}
+  <h1>{{ . | markdownify | emojify }}</h1>
+  {{ end }}
+  {{ with $st.Params.subtitle }}
+  <h3>{{ . | markdownify | emojify }}</h3>
+  {{ end }}
+</div>
+</div>
+{{ partial "animate_rna.html" .  }}
+
+<img draggable="false" src="/img/{{ $st.Params.image }}">
+<div class="row jumbo-row" >
+  <div class="col-lg-12 text-center">
+    {{ $st.Content }}
+  </div>
+</div>
