@@ -223,3 +223,40 @@ only screen and (max-width: 419px) {
     width: 200px;
   }
 }
+
+
+/* People cards */
+.people-card {
+  max-width: 300px;
+  background: #ffffff;
+  flex-basis: 100%;
+  width: 280px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 75px; /* Added */
+}
+
+.people-card img{
+  border-radius: 70px;
+  padding: 30px;
+  margin-bottom: -15px;
+  max-height:280px; /* Needed for safari?? */
+}
+
+.people-card p{
+  font-size: 1rem;
+  margin-top: 1rem;
+  height: 3rem;
+}
+
+.people-card h5{
+  margin-top: -20px;
+  margin-bottom: 0px;
+  height: 1rem;
+}
+
+
+
+.portrait-title h3{
+  color: #4c5762
+}
