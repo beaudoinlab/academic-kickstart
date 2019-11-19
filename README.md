@@ -80,7 +80,7 @@ $ cd $HOME/Dropbox/UConn/
 
 3. Clone the repository (this makes a copy of the repository on your computer)
 ```
-$ git clone https://github.com/dburkhardt/academic-kickstart.git beaudoinlab-website
+$ git clone https://github.com/beaudoinlab/academic-kickstart.git beaudoinlab-website
 ```
 
 4. Change directory into the folder you just downloaded.
