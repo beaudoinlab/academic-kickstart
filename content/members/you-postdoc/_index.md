@@ -7,8 +7,7 @@ title: You
 link: "/people/#open-positions"
 
 # Username (this should match the folder name)
-authors:
-- you
+author: you-postdoc
 
 # Is this the primary user of the site?
 superuser: false

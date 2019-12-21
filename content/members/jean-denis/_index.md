@@ -5,8 +5,7 @@ name: Jean-Denis Beaudoin
 title: Jean-Denis
 
 # Username (this should match the folder name)
-authors:
-- jean-denis
+author: jean-denis
 
 # Is this the primary user of the site?
 superuser: true
