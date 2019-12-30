@@ -270,6 +270,6 @@ You can edit the information here, and it will be reflected in the people cards 
 Note, the "role" position must be one of the following:
 "Principal Investigator", "Associate Research Scientist", "Postdoctoral Associate", "Graduate Student", "Senior Administrative Assistant". If you add a new user and don't see them on `beaudoinlab.org/people`, then it's likely that there is a typo in their role.
 
-### Adding a protocol
+### Google Analytics
 
-Lab protocols are actually news articles in disguise. To add a protocol, follow the instructions for adding a news article, but put the folder in `/content/lab-protocols`. Similarly to the lab member content, there is a second directory called `/content/protocols` but this simply provides a layout for the protocols and typically doesn't need to be edited.
+Google analytics are accesible from the `beaudoinlab` gmail account by visiting [https://analytics.google.com](https://analytics.google.com) and logging into the `beaudoinlab` account.
