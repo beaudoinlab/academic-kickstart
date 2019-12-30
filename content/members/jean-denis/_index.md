@@ -2,15 +2,18 @@
 # Display name
 name: Jean-Denis Beaudoin
 
+# Member's first name (only used for tab display)
 title: Jean-Denis
 
 # Username (this should match the folder name)
 author: jean-denis
 
-# Is this the primary user of the site?
+# Is this the primary user of the site? If not JD, then set to "false"
 superuser: true
 
 # Role/position
+# valid roles are in `/content/people/lab-members.md`
+# members are displayed in the order of that list
 role: "Principal Investigator"
 
 # Organizations/Affiliations
