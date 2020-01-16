@@ -59,8 +59,8 @@ time_format = "3:04 PM"
 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "jdbeaudoin@uchc.edu"
-phone = ""
-address = "UConn Health, Farmington, CT"
+phone = "860-679-3027"
+address = "Genetics and Genome Sciences, UConn Health, 400 Farmington Avenue R1146, Farmington, CT 06032-6403"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 office_hours = ""
@@ -71,8 +71,8 @@ appointment_url = ""
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "Follow the lab on Twitter!", link = "https://twitter.com/JeanDenisB35"}
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+    {icon = "envelope", icon_pack = "fas", name = "jdbeaudoin@uchc.edu", link = "mailto:jdbeaudoin@uchc.edu"},
+    {icon = "twitter", icon_pack = "fab", name = "Follow the lab on Twitter!", link = "https://twitter.com/JeanDenisB35"}
   ]
 
 # Display a map.
